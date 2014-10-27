@@ -1,0 +1,23 @@
+{
+  "name": "edmunds-widgets-sdk",
+  "version": "0.0.1",
+  "homepage": "https://github.com/EdmundsWidgets/com.edmunds.widgets.sdk",
+  "authors": [
+    "Ivan Kauryshchanka <Ivan_Kauryshchanka@epam.com>"
+  ],
+  "description": "core sdk for widgets",
+  "main": "edmunds-sdk.js",
+  "keywords": [
+    "edmunds",
+    "sdk",
+    "widgets"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
