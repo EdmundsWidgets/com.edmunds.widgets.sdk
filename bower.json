@@ -6,7 +6,7 @@
     "Ivan Kauryshchanka <Ivan_Kauryshchanka@epam.com>"
   ],
   "description": "core sdk for widgets",
-  "main": "edmunds-sdk.js",
+  "main": "edmunds-sdk.min.js",
   "keywords": [
     "edmunds",
     "sdk",
