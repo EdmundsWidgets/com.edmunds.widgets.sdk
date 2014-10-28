@@ -8,15 +8,16 @@ module.exports = function(grunt) {
         concat: {
             sdk: {
                 src: [
+                    'src/widgets-api/edmunds-sdk.js',
                     'src/ajax/jsonp.js',
                     // api
-                    'src/vehicle.api.js',
+                    'src/widget-api/core.api.js',
+                    'src/widgets-api/vehicle.api.js',
                     // widget
                     'src/widget/_intro',
                     'src/widget/mixins/Observable.js',
                     'src/widget/utils.widget.js',
                     'src/widget/core.widget.js',
-                    'src/widget/core.api.js',
                     'src/widget/_outro'
                 ],
                 dest: 'dest/widget-sdk.js'
